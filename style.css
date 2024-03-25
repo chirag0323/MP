@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.scroll-bar {
+    overflow: auto;
+}
+
+.topbar {
+    background-color: lightseagreen;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    width: 1330px;
+    padding: 7px 0px;
+}
+
+
+.topbar .navigation {
+    padding: 0px 1px;
+
+}
+
+
+.topbar .navigation ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+
+.topbar .navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+
+
+}
+
+
+.topbar .navigation ul li a button {
+    background-color: lightseagreen;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+
+
+.secondbar {
+    position: relative;
+    right: 30;
+
+    left: 316px;
+    top: 0px;
+    
+    margin-bottom: 60px;
+    bottom: 482px;
+
+    background-color:skyblue;
+    width: 1013px;
+    padding: 45px 0px;
+}
+
+
+.logoo {
+    position: relative;
+    margin-right: 1035px;
+    
+    right: 100px;
+    left: 0;
+    
+    top: -173px;
+    background-color:white(158, 84, 84);
+    
+}
+
+.logoo a img {
+    width: 130px;
+    padding: 0px 130px;
+}
+
+
+.secondbar .navigation2 a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.secondbar .navigation2 a img {
+    width: 130px;
+
+
+}
+
+
+
+.thirdbar video {
+
+    position: absolute;
+    left: 0;
+    right: 0px;
+    top: 176px;
+    width: 1330px;
+    left: 0;
+
+
+}
